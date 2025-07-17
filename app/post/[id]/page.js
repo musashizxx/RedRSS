@@ -3,7 +3,7 @@ import PostContent from './PostContent'
 
 async function getPostData(id) {
   try {
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://red-rss.vercel.app'
     const response = await fetch(`${baseUrl}/api/post/${id}`, {
       cache: 'no-store'
     })
