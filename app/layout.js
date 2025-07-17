@@ -2,7 +2,7 @@ import './globals.css'
 
 export const metadata = {
   title: 'RSS Feed Platform',
-  description: 'Modern RSS feed okuyucu platformu',
+  description: 'RedLine RSS',
   viewport: 'width=device-width, initial-scale=1',
 }
 
